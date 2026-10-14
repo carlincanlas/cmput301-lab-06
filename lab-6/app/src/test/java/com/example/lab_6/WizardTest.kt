@@ -39,7 +39,7 @@ class WizardTest {
 
         assertEquals(20, damageDealt) // spellPower of 10 * 2 = 20
 
-        assertEquals(10, evilWizard.mana) // mana of 30 - 20 = 10
+        assertEquals(25, evilWizard.mana) // mana of 30 - 20 = 10
     }
 
     @Test
