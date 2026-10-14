@@ -45,7 +45,7 @@ class WizardTest {
     @Test
     fun castSpell_frostbite_unsuccessful() {
         evilWizard.mana = 4 // Evil Wizard does not have enough mana to cast "Explosion"
-        val damageDealt = evilWizard.castSpell("Explosion")
+        val damageDealt = evilWizard.castSpell("Frostbite")
 
         assertEquals(0, damageDealt)
 
